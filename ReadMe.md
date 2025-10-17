@@ -90,5 +90,16 @@ This repository includes date form x varous sources that are explained below:
     * Npp_max: Maximum NPP over the subdivision
     * Npp_mean: Mean NPP over the subdivision
     * Npp_min: Minimum NPP over the subdivision
--  **Water:** 
+-  **Water:** Water bodies were collected for Canadian subdivisions from the [MODIS dataset of Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD44W) available over the years 2000-2014. The columns include:
+    * CCSNAME: Stands for Census Consolidation Subdivision Name
+    * CSDNAME: Stands for Census SubDivision Name
+    * CSDTYPE: A code that indicates the type of the Subdivision.
+    * CSDUID: Census Subdivision Unique Identifier
+    * DGUID: Dessimination Geography Unique Identifier
+    * LANDAREA: The site area of the subdivision
+    * PRUID: The province Identifier
+    * water_mask_max: Maximum water bodies over the subdivision
+    * water_mask_mean: Mean water bodies over the subdivision
+    * water_mask_min: Minimum water bodies over the subdivision
+    * date: It's 2000-2014
 

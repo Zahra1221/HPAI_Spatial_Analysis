@@ -32,7 +32,7 @@ This repository includes date form x varous sources that are explained below:
     * rain_min: Rain, minimized over each subdivision
     * rain_max: Rain, maximized over each subdivision
     * rain_mean: Rain, averaged over each subdivision
-- **Wildfire:** It was collected from [Google Earth Engine Firms](https://developers.google.com/earth-engine/datasets/catalog/FIRMS) from 2021-01-01 to 2025-01-01 on 4 months bases. Each entry of the dataset includes the maximum of the fire value over the 4 months period. The columns include:
+- **Wildfire:** It was collected from [Google Earth Engine Firms](https://developers.google.com/earth-engine/datasets/catalog/FIRMS) for Canada, from 2021-01-01 to 2025-01-01 on 4 months bases. Each entry of the dataset includes the maximum of the fire value over the 4 months period. The columns include:
     * CCSNAME: Stands for Census Consolidation Subdivision Name
     * CSDNAME: Stands for Census SubDivision Name
     * CSDTYPE: A code that indicates the type of the Subdivision.
@@ -45,5 +45,36 @@ This repository includes date form x varous sources that are explained below:
     * min: Minimum fire value over the subdivision
     * start_date: The date marking the beginning of data collection
     * end_date: The date marking the end of data collection
-- **Elevation:** 
+- **Elevation:** The dataset was collected from [Google Earth Engine Terrain Elevation](https://developers.google.com/earth-engine/datasets/catalog/USGS_GMTED2010_FULL) for each Canadian subdivision. The columns include:
+    * CCSNAME: Stands for Census Consolidation Subdivision Name
+    * CSDNAME: Stands for Census SubDivision Name
+    * CSDTYPE: A code that indicates the type of the Subdivision.
+    * CSDUID: Census Subdivision Unique Identifier
+    * DGUID: Dessimination Geography Unique Identifier
+    * LANDAREA: The site area of the subdivision
+    * PRUID: The province Identifier
+    * max: Maximum elevation over the subdivision
+    * mean: Mean elevation over the subdivision
+    * median: Median elevation over the subdivision
+    * min: Minimum elevation over the subdivision
+    * std: The standard deviation of the elevation over the subdivision
+- **Vegetation:** It includes three parameters, tree coverage percentage, non-tree vegetation percentage, non-vegetation percentage, collected for Canadian subdivisions from [MODIS data of Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD44B#bands) available over 2000 to 2023. The columns include:
+    * CCSNAME: Stands for Census Consolidation Subdivision Name
+    * CSDNAME: Stands for Census SubDivision Name
+    * CSDTYPE: A code that indicates the type of the Subdivision.
+    * CSDUID: Census Subdivision Unique Identifier
+    * DGUID: Dessimination Geography Unique Identifier
+    * LANDAREA: The site area of the subdivision
+    * PRUID: The province Identifier
+    * Percent_NonTree_Vegetation_max: Maximum non-tree vegetation percentage over the subdivision
+    * Percent_NonTree_Vegetation_mean: Average non-tree vegetation percentage over the subdivision
+    * Percent_NonTree_Vegetation_min: Minimum non-tree vegetation percentage over the subdivision
+    * Percent_NonVegetated_max: Maximum non-vegetation percentage over the subdivision
+    * Percent_NonVegetated_mean: Average non-vegetation percentage over the subdivision
+    * Percent_NonVegetated_min: Minimum non-vegetation percentage over the subdivision
+    * Percent_Tree_Cover_max: Maximum tree coverage percentage over the subdivision
+    * Percent_Tree_Cover_mean: Average tree coverage percentage over the subdivision
+    * Percent_Tree_Cover_min: Minimum tree coverage percentage over the subdivision
+    * date: It is 2000-2023
+-  
 

@@ -76,5 +76,19 @@ This repository includes date form x varous sources that are explained below:
     * Percent_Tree_Cover_mean: Average tree coverage percentage over the subdivision
     * Percent_Tree_Cover_min: Minimum tree coverage percentage over the subdivision
     * date: It is 2000-2023
--  
+-  **GPP/NPP:** Gross Primary Productivity (GPP) and Net Primary Productivity (NPP) which are indicators for the amount of carbon being captured by plants in the ecosystem, were collected form the [MODIS dataset of Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD17A3HGF) for Canada on subdivision level, averaged 2021-01-01 to 2025-01-01. The columns include:
+    * CCSNAME: Stands for Census Consolidation Subdivision Name
+    * CSDNAME: Stands for Census SubDivision Name
+    * CSDTYPE: A code that indicates the type of the Subdivision.
+    * CSDUID: Census Subdivision Unique Identifier
+    * DGUID: Dessimination Geography Unique Identifier
+    * LANDAREA: The site area of the subdivision
+    * PRUID: The province Identifier
+    * Gpp_max: Maximum GPP over the subdivision
+    * Gpp_mean: Mean GPP over the subdivision
+    * Gpp_min: Minimum GPP over the subdivision
+    * Npp_max: Maximum NPP over the subdivision
+    * Npp_mean: Mean NPP over the subdivision
+    * Npp_min: Minimum NPP over the subdivision
+-  **Water:** 
 
